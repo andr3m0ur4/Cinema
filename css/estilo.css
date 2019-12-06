@@ -1,0 +1,92 @@
+/* Formatações padrão */
+body {
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+**** Layout ****
+*/
+#principal {
+	width: 100%;
+}
+
+#cabecalho {
+	text-align: center;
+}
+
+#menu {
+	margin: 20px auto;
+	width: 700px;
+}
+
+#conteudo {
+	padding: 18px;
+}
+
+.servicos {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.servico, .opcao {
+	display: inline-block;
+}
+
+.servico img {
+	width: 272px;
+}
+
+.opcao h2 {
+	text-align: left;
+}
+
+.opcao img {
+	width: 458px;
+}
+
+#rodape {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 18px;
+	padding-bottom: 20px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+	text-decoration: none;
+}
+
+#menu a:link, #menu a:visited {
+	color: #FF4000;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#menu a:hover {
+	color: #FFBF00;
+	background: #FF4000;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+	color: #FF8000;
+}
+
+h2 {
+	color: #FF4000;
+	padding-bottom: 15px;
+}
+
+h3 {
+	color: #48220E;
+}
