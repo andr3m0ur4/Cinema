@@ -23,7 +23,7 @@ body {
 	width: 700px;
 }
 
-#conteudo {
+#conteudo, #contato {
 	padding: 18px;
 }
 
@@ -67,6 +67,33 @@ body {
 .filme img {
 	width: 270px;
 	height: 400px;
+}
+
+.controle label {
+	display: inline-block;
+	width: 80px;
+}
+
+.controle input {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+textarea {
+	margin-top: 8px;
+	display: block;
+}
+
+.botao {
+	font-weight: bold;
+	font: 400 1.2em Arial;
+	padding: 5px 20px;
+}
+
+#mapa {
+	border: 0;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #rodape {
@@ -114,4 +141,8 @@ h3 {
 
 .vermelho {
 	color: #F00;
+}
+
+.rosa {
+	color: #F0F;
 }
