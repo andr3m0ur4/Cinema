@@ -32,7 +32,7 @@ body {
 	text-align: center;
 }
 
-.servico, .opcao {
+.servico, .opcao, .filme {
 	display: inline-block;
 }
 
@@ -46,6 +46,27 @@ body {
 
 .opcao img {
 	width: 458px;
+}
+
+#programacao {
+	margin-top: 10px;
+	padding: 18px;
+}
+
+.filmes {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.filme {
+	width: 270px;
+	height: 572px;
+	padding: 10px;
+}
+
+.filme img {
+	width: 270px;
+	height: 400px;
 }
 
 #rodape {
@@ -89,4 +110,8 @@ h2 {
 
 h3 {
 	color: #48220E;
+}
+
+.vermelho {
+	color: #F00;
 }
