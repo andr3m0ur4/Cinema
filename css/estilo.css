@@ -54,14 +54,16 @@ body {
 }
 
 .filmes {
+	text-align: center;
 	margin: 0 auto;
-	width: 1200px;
+	width: 90%;
 }
 
 .filme {
 	width: 270px;
 	height: 572px;
 	padding: 10px;
+	text-align: left;
 }
 
 .filme img {
@@ -91,9 +93,13 @@ textarea {
 }
 
 #mapa {
+	width: 920px;
+}
+
+iframe {
 	border: 0;
-	margin: 0 auto;
-	text-align: center;
+	height: 450px;
+	width: 100%;
 }
 
 #rodape {
