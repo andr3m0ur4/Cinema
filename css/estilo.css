@@ -11,7 +11,8 @@ body {
 **** Layout ****
 */
 #principal {
-	width: 100%;
+	width: 920px;
+	margin: auto;
 }
 
 #cabecalho {
@@ -36,6 +37,10 @@ body {
 	display: inline-block;
 }
 
+.opcao {
+	width: calc((920px - 48px) / 3);
+}
+
 .servico img {
 	width: 272px;
 }
@@ -45,7 +50,7 @@ body {
 }
 
 .opcao img {
-	width: 458px;
+	width: 100%;
 }
 
 #programacao {
@@ -151,4 +156,12 @@ h3 {
 
 .rosa {
 	color: #F0F;
+}
+
+.center {
+	text-align: center;
+}
+
+.img-fluid {
+	width: 100%;
 }
